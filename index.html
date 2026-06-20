@@ -3,91 +3,151 @@
 <head>
     <meta charset="utf-8">
     <title>Upak</title>
+    <style>
+        body {
+            background-color: #000000;
+            /* 90s hacker/geocities classic: Electric lime green text on pure black */
+            color: #00FF00; 
+            /* The quintessential 90s web typography: Courier New for that terminal look */
+            font-family: "Courier New", Courier, monospace; 
+            margin: 0;
+            padding: 20px;
+            text-align: center; /* Almost everything was center-aligned in the 90s */
+        }
+
+        .stage {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #000000;
+            padding: 15px;
+            /* Using a classic thick, pixelated double border */
+            border: 4px double #00FF00; 
+        }
+
+        /* 90s style raw, thick horizontal rules */
+        hr {
+            border: 0;
+            height: 3px;
+            background: #00FF00;
+            margin: 20px 0;
+        }
+
+        /* Classic 90s hyperlink styling: Vibrant blue/purple default states */
+        a {
+            color: #00FFFF; /* Bright Cyan for high visibility */
+            text-decoration: underline; /* Always underlined in the 90s */
+            font-weight: bold;
+        }
+
+        a:visited {
+            color: #FF00FF; /* Classic 90s Magenta for visited links */
+        }
+
+        a:hover {
+            color: #FFFFFF;
+            background-color: #00FF00; /* Retro highlight effect */
+            color: #000000;
+        }
+
+        .main-title {
+            font-size: 36px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin: 10px 0;
+        }
+
+        .section-title {
+            font-size: 22px;
+            font-weight: bold;
+            color: #FFFF00; /* Secondary 90s accent: Neon Yellow */
+            margin-top: 25px;
+            margin-bottom: 5px;
+            text-align: left;
+        }
+
+        .cv-desc {
+            font-size: 16px;
+            text-align: left;
+            line-height: 1.4;
+            margin-top: 5px;
+            margin-bottom: 20px;
+            padding-left: 10px;
+        }
+
+        /* Retro marquee emulation for that authentic 1995 flair */
+        .welcome-ticker {
+            background-color: #111111;
+            padding: 5px;
+            border: 1px dashed #00FF00;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }
+    </style>
 </head>
-<body bgcolor="#000000" text="#ffff00" link="#ffff00" vlink="#ffff00" alink="#ffffff" style="font-family: 'Arial', 'Helvetica', sans-serif;">
+<body>
 
-    <!-- 90s Web Layout: Using a centered table with explicit pixel widths -->
-    <table width="700" align="center" border="0" cellpadding="0" cellspacing="0">
-        <tr>
-            <td>
+    <div class="stage">
+        
+        <!-- Authentic 90s welcome banner text -->
+        <div class="welcome-ticker">
+            *** WELCOME TO MY HOME PAGE! ***
+        </div>
 
-                <!-- Header Section -->
-                <center>
-                    <h1><font size="7">UPAK</font></h1>
-                </center>
-                
-                <hr size="2" color="#ffff00">
-                
-                <!-- Navigation -->
-                <center>
-                    <font size="4"><b>
-                        <a href="index.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp; ▪ &nbsp;&nbsp;&nbsp;&nbsp; 
-                        <a href="https://www.1o1c.org" target="_blank">1O1C Network Website</a>
-                    </b></font>
-                </center>
-                
-                <hr size="2" color="#ffff00">
-                
-                <!-- Intro Section -->
-                <center>
-                    <h2><font size="5">Personal Archive & CV</font></h2>
-                </center>
-                
-                <p align="left">
-                    <font size="3">
-                        I am a developer, long-term server administrator, and creative author. I design network infrastructures, construct complex custom automation frameworks, and coordinate digital media asset pipelines.
-                    </font>
-                </p>
+        <p class="main-title">
+            // UPAK_PORTAL //
+        </p>
+        
+        <hr>
+        
+        <p style="font-size: 18px; font-weight: bold;">
+            [ <a href="index.html">Home</a> ]&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[ <a href="https://www.1o1c.org" target="_blank">1O1C Network Website</a> ]
+        </p>
+        
+        <hr>
+        
+        <p style="font-size: 20px; font-weight: bold; color: #FFFF00;">
+            ~ Personal Archive & CV ~
+        </p>
+        
+        <p style="font-size: 16px; text-align: left; padding: 0 5px;">
+            I am a developer, long-term server administrator, and creative author. I design network infrastructures, construct complex custom automation frameworks, and coordinate digital media asset pipelines.
+        </p>
 
-                <hr size="2" color="#ffff00">
+        <hr>
 
-                <!-- CV Sections -->
-                <p>
-                    <b><font size="4">▪ Systems Engineering & Anarchy Clusters (12+ Months)</font></b><br>
-                    <font size="3">&nbsp;&nbsp;&nbsp;&nbsp;Founder and architect of the oldest 1-chunk anarchy lifesteal server in Minecraft history. Developed structural Java plugins, optimized network deployment rates, and distributed custom texture asset patches.</font>
-                </p>
+        <div class="section-title">> Systems Engineering & Anarchy Clusters (12+ Months)</div>
+        <p class="cv-desc">
+            Founder and architect of the oldest 1-chunk anarchy lifesteal server in Minecraft history. Developed structural Java plugins, optimized network deployment rates, and distributed custom texture asset patches.
+        </p>
 
-                <p>
-                    <b><font size="4">▪ Software & Low-Level Architectures</font></b><br>
-                    <font size="3">&nbsp;&nbsp;&nbsp;&nbsp;Engineered from scratch a fully functional custom web browser, independent custom OS platform, and deployed "Myūbu"—a self-growing adaptive AI framework. Created numerous free and commercial websites for active deployment.</font>
-                </p>
+        <div class="section-title">> Software & Low-Level Architectures</div>
+        <p class="cv-desc">
+            Engineered from scratch a fully functional custom web browser, independent custom OS platform, and deployed "Myūbu"—a self-growing adaptive AI framework. Created numerous free and commercial websites for active deployment.
+        </p>
 
-                <p>
-                    <b><font size="4">▪ Media Ecosystem Management (5 Years)</font></b><br>
-                    <font size="3">&nbsp;&nbsp;&nbsp;&nbsp;Five continuous years of video algorithm analysis and content testing. Spent 2 months explicitly heading YouTube management protocols alongside the "AnimeKing" Facebook channel system, interacting with an 80,000 follower audience base.</font>
-                </p>
+        <div class="section-title">> Media Ecosystem Management (5 Years)</div>
+        <p class="cv-desc">
+            Five continuous years of video algorithm analysis and content testing. Spent 2 months explicitly heading YouTube management protocols alongside the "AnimeKing" Facebook channel system, interacting with an 80,000 follower audience base.
+        </p>
 
-                <p>
-                    <b><font size="4">▪ Manga Public Relations & Editing</font></b><br>
-                    <font size="3">&nbsp;&nbsp;&nbsp;&nbsp;Managed outward-facing Public Relations (PR) frameworks for an active manga scanning group over 2 months. Served as formal Translation Lead (TL) during critical release timelines to coordinate translation validation.</font>
-                </p>
+        <div class="section-title">> Manga Public Relations & Editing</div>
+        <p class="cv-desc">
+            Managed outward-facing Public Relations (PR) frameworks for an active manga scanning group over 2 months. Served as formal Translation Lead (TL) during critical release timelines to coordinate translation validation.
+        </p>
 
-                <p>
-                    <b><font size="4">▪ Literary Publication // Shou #1608</font></b><br>
-                    <font size="3">&nbsp;&nbsp;&nbsp;&nbsp;Active author of the deep-lore system narrative *Shou #1608*, managing continuity boards, timeline indexes, and ongoing digital manuscript production paths.</font>
-                </p>
+        <div class="section-title">> Literary Publication // Shou #1608</div>
+        <p class="cv-desc">
+            Active author of the deep-lore system narrative *Shou #1608*, managing continuity boards, timeline indexes, and ongoing digital manuscript production paths.
+        </p>
 
-                <hr size="2" color="#ffff00">
-                
-                <!-- Footer & 90s Style Web Counter Placeholder -->
-                <center>
-                    <p><font size="2">Upak Portal Cluster © 2026 ▪ Powered by me.1o1c.org</font></p>
-                    
-                    <!-- Retro Visitor Counter Graphic Box -->
-                    <table border="1" cellpadding="5" cellspacing="0" bordercolor="#ffff00" bgcolor="#000000">
-                        <tr>
-                            <td>
-                                <font size="2" color="#ffff00" face="Courier New">
-                                    YOU ARE VISITOR NO: <b>001608</b>
-                                </font>
-                            </td>
-                        </tr>
-                    </table>
-                </center>
-                
-            </td>
-        </tr>
-    </table>
+        <hr>
+        
+        <p style="font-size: 12px; color: #00FF00; margin: 10px 0 0 0;">
+            Upak Portal Cluster © 1996 ▪ Powered by me.1o1c.org<br>
+            Optimized for Netscape Navigator 3.0 & 800x600 Resolution
+        </p>
+        
+    </div>
 
 </body>
 </html>
