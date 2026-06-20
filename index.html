@@ -3,141 +3,91 @@
 <head>
     <meta charset="utf-8">
     <title>Upak</title>
-    <style>
-        body {
-            background-color: #000000;
-            /* Changed to strict bright yellow matching the image reference */
-            color: #ffff00; 
-            font-family: "Arial", "Helvetica", sans-serif; /* Clean, geometric sans-serif matching the image */
-            margin: 0;
-            padding: 40px 20px;
-            display: flex;
-            justify-content: center;
-        }
-
-        .stage {
-            max-width: 700px;
-            width: 100%;
-            background-color: #000000; /* Dropped the grey-tint depth to match pure pitch-black */
-            padding: 25px;
-            border: 2px solid #ffff00; /* Pure yellow border for a unified high-contrast look */
-            box-shadow: 5px 5px 0px #000000;
-        }
-
-        hr {
-            border: 0;
-            height: 1px;
-            background: #ffff00; /* Pure yellow separator line */
-            margin: 15px 0;
-        }
-
-        a {
-            color: #ffff00; /* Matching bright yellow */
-            text-decoration: none;
-        }
-
-        a:hover {
-            color: #ffffff; /* Clean white hover highlight */
-            text-decoration: underline;
-        }
-
-        .twcenmt {
-            text-align: center;
-            font-size: 18px;
-        }
-
-        .shadow-text {
-            text-shadow: 2px 2px 0px #000000;
-        }
-
-        .cv-section {
-            margin-bottom: 25px;
-        }
-
-        .cv-title {
-            font-size: 18px;
-            font-weight: bold;
-            color: #ffff00; /* Unified bright yellow */
-            margin-bottom: 5px;
-        }
-
-        .cv-desc {
-            font-size: 15px;
-            color: #ffff00; /* Removed off-gold to match the intense flat-yellow styling */
-            margin-top: 0;
-            padding-left: 15px;
-        }
-    </style>
 </head>
-<body>
+<body bgcolor="#000000" text="#ffff00" link="#ffff00" vlink="#ffff00" alink="#ffffff" style="font-family: 'Arial', 'Helvetica', sans-serif;">
 
-    <div class="stage">
-        
-        <p class="twcenmt" style="font-size: 32px; margin: 10px 0; font-weight: bold; text-shadow: 3px 3px 0px #000000; color: #ffff00;">
-            UPAK
-        </p>
-        
-        <hr>
-        
-        <p class="twcenmt" style="font-size: 18px; text-align: center; font-weight: bold; color: #ffff00;">
-            <a href="index.html">Home</a>&nbsp;&nbsp;&nbsp;&nbsp;▪&nbsp;&nbsp;&nbsp;&nbsp;
-            <a href="https://www.1o1c.org" target="_blank">1O1C Network Website</a>
-        </p>
-        
-        <hr>
-        
-        <p class="twcenmt shadow-text" style="font-size: 24px; font-weight: bold; margin-top: 20px; color: #ffff00;">
-            Personal Archive & CV
-        </p>
-        
-        <p class="twcenmt shadow-text" style="font-size: 16px; text-align: left; padding: 0 10px; color: #ffff00;">
-            I am a developer, long-term server administrator, and creative author. I design network infrastructures, construct complex custom automation frameworks, and coordinate digital media asset pipelines.
-        </p>
+    <!-- 90s Web Layout: Using a centered table with explicit pixel widths -->
+    <table width="700" align="center" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <td>
 
-        <hr>
+                <!-- Header Section -->
+                <center>
+                    <h1><font size="7">UPAK</font></h1>
+                </center>
+                
+                <hr size="2" color="#ffff00">
+                
+                <!-- Navigation -->
+                <center>
+                    <font size="4"><b>
+                        <a href="index.html">Home</a> &nbsp;&nbsp;&nbsp;&nbsp; ▪ &nbsp;&nbsp;&nbsp;&nbsp; 
+                        <a href="https://www.1o1c.org" target="_blank">1O1C Network Website</a>
+                    </b></font>
+                </center>
+                
+                <hr size="2" color="#ffff00">
+                
+                <!-- Intro Section -->
+                <center>
+                    <h2><font size="5">Personal Archive & CV</font></h2>
+                </center>
+                
+                <p align="left">
+                    <font size="3">
+                        I am a developer, long-term server administrator, and creative author. I design network infrastructures, construct complex custom automation frameworks, and coordinate digital media asset pipelines.
+                    </font>
+                </p>
 
-        <div class="cv-section">
-            <div class="cv-title">▪ Systems Engineering & Anarchy Clusters (12+ Months)</div>
-            <p class="cv-desc">
-                Founder and architect of the oldest 1-chunk anarchy lifesteal server in Minecraft history. Developed structural Java plugins, optimized network deployment rates, and distributed custom texture asset patches.
-            </p>
-        </div>
+                <hr size="2" color="#ffff00">
 
-        <div class="cv-section">
-            <div class="cv-title">▪ Software & Low-Level Architectures</div>
-            <p class="cv-desc">
-                Engineered from scratch a fully functional custom web browser, independent custom OS platform, and deployed "Myūbu"—a self-growing adaptive AI framework. Created numerous free and commercial websites for active deployment.
-            </p>
-        </div>
+                <!-- CV Sections -->
+                <p>
+                    <b><font size="4">▪ Systems Engineering & Anarchy Clusters (12+ Months)</font></b><br>
+                    <font size="3">&nbsp;&nbsp;&nbsp;&nbsp;Founder and architect of the oldest 1-chunk anarchy lifesteal server in Minecraft history. Developed structural Java plugins, optimized network deployment rates, and distributed custom texture asset patches.</font>
+                </p>
 
-        <div class="cv-section">
-            <div class="cv-title">▪ Media Ecosystem Management (5 Years)</div>
-            <p class="cv-desc">
-                Five continuous years of video algorithm analysis and content testing. Spent 2 months explicitly heading YouTube management protocols alongside the "AnimeKing" Facebook channel system, interacting with an 80,000 follower audience base.
-            </p>
-        </div>
+                <p>
+                    <b><font size="4">▪ Software & Low-Level Architectures</font></b><br>
+                    <font size="3">&nbsp;&nbsp;&nbsp;&nbsp;Engineered from scratch a fully functional custom web browser, independent custom OS platform, and deployed "Myūbu"—a self-growing adaptive AI framework. Created numerous free and commercial websites for active deployment.</font>
+                </p>
 
-        <div class="cv-section">
-            <div class="cv-title">▪ Manga Public Relations & Editing</div>
-            <p class="cv-desc">
-                Managed outward-facing Public Relations (PR) frameworks for an active manga scanning group over 2 months. Served as formal Translation Lead (TL) during critical release timelines to coordinate translation validation.
-            </p>
-        </div>
+                <p>
+                    <b><font size="4">▪ Media Ecosystem Management (5 Years)</font></b><br>
+                    <font size="3">&nbsp;&nbsp;&nbsp;&nbsp;Five continuous years of video algorithm analysis and content testing. Spent 2 months explicitly heading YouTube management protocols alongside the "AnimeKing" Facebook channel system, interacting with an 80,000 follower audience base.</font>
+                </p>
 
-        <div class="cv-section">
-            <div class="cv-title">▪ Literary Publication // Shou #1608</div>
-            <p class="cv-desc">
-                Active author of the deep-lore system narrative *Shou #1608*, managing continuity boards, timeline indexes, and ongoing digital manuscript production paths.
-            </p>
-        </div>
+                <p>
+                    <b><font size="4">▪ Manga Public Relations & Editing</font></b><br>
+                    <font size="3">&nbsp;&nbsp;&nbsp;&nbsp;Managed outward-facing Public Relations (PR) frameworks for an active manga scanning group over 2 months. Served as formal Translation Lead (TL) during critical release timelines to coordinate translation validation.</font>
+                </p>
 
-        <hr>
-        
-        <p style="text-align: center; font-size: 13px; color: #ffff00; margin: 0;">
-            Upak Portal Cluster © 2026 ▪ Powered by me.1o1c.org
-        </p>
-        
-    </div>
+                <p>
+                    <b><font size="4">▪ Literary Publication // Shou #1608</font></b><br>
+                    <font size="3">&nbsp;&nbsp;&nbsp;&nbsp;Active author of the deep-lore system narrative *Shou #1608*, managing continuity boards, timeline indexes, and ongoing digital manuscript production paths.</font>
+                </p>
+
+                <hr size="2" color="#ffff00">
+                
+                <!-- Footer & 90s Style Web Counter Placeholder -->
+                <center>
+                    <p><font size="2">Upak Portal Cluster © 2026 ▪ Powered by me.1o1c.org</font></p>
+                    
+                    <!-- Retro Visitor Counter Graphic Box -->
+                    <table border="1" cellpadding="5" cellspacing="0" bordercolor="#ffff00" bgcolor="#000000">
+                        <tr>
+                            <td>
+                                <font size="2" color="#ffff00" face="Courier New">
+                                    YOU ARE VISITOR NO: <b>001608</b>
+                                </font>
+                            </td>
+                        </tr>
+                    </table>
+                </center>
+                
+            </td>
+        </tr>
+    </table>
 
 </body>
 </html>
