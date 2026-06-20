@@ -2,113 +2,110 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Upak Portal // v2.0</title>
+    <title>Upak Portal</title>
     <style>
         body {
-            background-color: #0a0f1d; /* Deep 2000s tech space blue/black */
-            color: #ffffff; /* Stark white body text for sharp contrast */
-            /* Tahoma and Verdana were the absolute kings of 2000s web typography */
-            font-family: "Tahoma", "Verdana", sans-serif; 
+            /* 2010s aesthetic: Bright, clean, minimalist off-white backdrop */
+            background-color: #f4f6f8;
+            color: #333333; /* Soft charcoal dark grey instead of pure harsh black */
+            /* Open Sans and Arial dominated the clean, mobile-first 2010s web */
+            font-family: "Open Sans", "Arial", sans-serif; 
             margin: 0;
-            padding: 40px 20px;
+            padding: 50px 20px;
             display: flex;
             justify-content: center;
+            -webkit-font-smoothing: antialiased;
         }
 
         .stage {
-            max-width: 750px;
+            max-width: 680px;
             width: 100%;
-            background-color: #111625; /* Dark slate container box */
-            padding: 20px;
-            /* Iconic 2000s tech frame look: light blue border with an outer glow */
-            border: 1px solid #00a8ff; 
-            box-shadow: 0px 0px 15px #00a8ff; 
+            background-color: #ffffff; /* Crisp white card layout */
+            padding: 40px;
+            /* Smooth, subtle rounded corners and soft, realistic drop shadows */
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05), 0 1px 3px rgba(0, 0, 0, 0.1);
+            border: 1px solid #e1e4e8;
         }
 
-        .header-banner {
-            background: #172037;
-            padding: 15px;
-            border: 1px solid #1f2d4e;
-            text-align: center;
-            margin-bottom: 15px;
+        /* Minimalist, thin grey divider rules */
+        hr {
+            border: 0;
+            height: 1px;
+            background: #e1e4e8;
+            margin: 25px 0;
         }
 
-        /* Tech-accented custom dividers instead of raw rules */
-        .tech-divider {
-            height: 2px;
-            background: linear-gradient(90deg, transparent, #00a8ff, transparent);
-            margin: 20px 0;
-        }
-
-        /* 2000s Navigation Style: Bold tech brackets with cyan hover glow */
+        /* 2010s Navigation Bar: Clean text links with subtle transition effects */
         .nav-bar {
             text-align: center;
             font-size: 14px;
-            font-weight: bold;
-            letter-spacing: 1px;
-            color: #5f75a1;
+            font-weight: 600;
         }
 
         a {
-            color: #00a8ff; /* Vivid Tech Cyan */
+            color: #007acc; /* Flat corporate startup blue */
             text-decoration: none;
+            transition: color 0.2s ease; /* CSS3 transitions became standard in the 2010s */
         }
 
         a:hover {
-            color: #ffffff;
-            text-shadow: 0px 0px 8px #00a8ff; /* Futuristic neon glow effect */
+            color: #005999;
             text-decoration: underline;
         }
 
         .main-title {
-            font-size: 28px;
-            font-weight: bold;
-            color: #ffffff;
-            letter-spacing: 3px;
-            margin: 0;
-            /* Glowing text effect popular on tech sites */
-            text-shadow: 0px 0px 10px #00a8ff; 
+            text-align: center;
+            font-size: 32px;
+            font-weight: 800; /* Ultra-bold header trends */
+            color: #111111;
+            margin: 0 0 8px 0;
+            letter-spacing: -0.5px; /* Tight letter spacing */
         }
 
         .subtitle {
-            font-size: 11px;
-            color: #00a8ff;
-            text-transform: uppercase;
-            letter-spacing: 5px;
-            margin-top: 5px;
-            margin-bottom: 0;
+            text-align: center;
+            font-size: 14px;
+            color: #6a737d; /* Muted slate grey secondary text */
+            margin: 0;
+            font-weight: 400;
+        }
+
+        .overview-text {
+            font-size: 15px;
+            line-height: 1.6;
+            color: #444444;
+            text-align: center;
+            max-width: 550px;
+            margin: 0 auto;
         }
 
         .cv-section {
-            margin-bottom: 20px;
-            background-color: #141c30; /* Sub-containers for modules */
-            border-left: 3px solid #00a8ff; /* Accent bar on the left side */
-            padding: 12px;
+            margin-bottom: 30px;
         }
 
         .cv-title {
-            font-size: 14px;
-            font-weight: bold;
-            color: #00a8ff; /* Electric tech blue headers */
-            text-transform: uppercase;
-            letter-spacing: 1px;
+            font-size: 16px;
+            font-weight: 700;
+            color: #007acc; /* Flat blue accent headings */
             margin-bottom: 6px;
+            display: flex;
+            align-items: center;
         }
 
         .cv-desc {
-            font-size: 12px; /* Small, crisp text sizes were standard in the 2000s */
-            color: #b2c4e6;  /* Muted ice blue/grey for body content text */
+            font-size: 14px;
+            color: #555555;
             line-height: 1.6;
             margin: 0;
+            padding-left: 0; /* Left alignment alignment without old bullet characters */
         }
 
         .footer-text {
             text-align: center;
-            font-size: 10px;
-            color: #4c5d82;
-            margin-top: 25px;
-            text-transform: uppercase;
-            letter-spacing: 1px;
+            font-size: 12px;
+            color: #959da5;
+            margin-top: 35px;
         }
     </style>
 </head>
@@ -116,64 +113,63 @@
 
     <div class="stage">
         
-        <div class="header-banner">
-            <h1 class="main-title">UPAK CORE</h1>
-            <p class="subtitle">System Architecture & Database</p>
-        </div>
+        <h1 class="main-title">Upak Portal</h1>
+        <p class="subtitle">Personal Portfolio & Project Archive</p>
+        
+        <hr>
         
         <div class="nav-bar">
-            :: [ <a href="index.html">HOME</a> ] :: [ <a href="https://www.1o1c.org" target="_blank">1O1C NETWORK</a> ] ::
+            <a href="index.html">Home</a> &nbsp;&middot;&nbsp; 
+            <a href="https://www.1o1c.org" target="_blank">1O1C Network</a>
         </div>
         
-        <div class="tech-divider"></div>
+        <hr>
         
-        <div style="padding: 0 10px; margin-bottom: 25px;">
-            <p class="cv-title" style="color: #ffffff;">// OVERVIEW</p>
-            <p class="cv-desc">
-                I am a developer, long-term server administrator, and creative author. I design network infrastructures, construct complex custom automation frameworks, and coordinate digital media asset pipelines.
-            </p>
-        </div>
+        <p class="overview-text">
+            I am a developer, long-term server administrator, and creative author. I design network infrastructures, construct complex custom automation frameworks, and coordinate digital media asset pipelines.
+        </p>
+
+        <hr>
 
         <div class="cv-section">
-            <div class="cv-title">01 // Systems Engineering & Anarchy Clusters (12+ Months)</div>
+            <div class="cv-title">Systems Engineering & Anarchy Clusters (12+ Months)</div>
             <p class="cv-desc">
                 Founder and architect of the oldest 1-chunk anarchy lifesteal server in Minecraft history. Developed structural Java plugins, optimized network deployment rates, and distributed custom texture asset patches.
             </p>
         </div>
 
         <div class="cv-section">
-            <div class="cv-title">02 // Software & Low-Level Architectures</div>
+            <div class="cv-title">Software & Low-Level Architectures</div>
             <p class="cv-desc">
                 Engineered from scratch a fully functional custom web browser, independent custom OS platform, and deployed "Myūbu"—a self-growing adaptive AI framework. Created numerous free and commercial websites for active deployment.
             </p>
         </div>
 
         <div class="cv-section">
-            <div class="cv-title">03 // Media Ecosystem Management (5 Years)</div>
+            <div class="cv-title">Media Ecosystem Management (5 Years)</div>
             <p class="cv-desc">
                 Five continuous years of video algorithm analysis and content testing. Spent 2 months explicitly heading YouTube management protocols alongside the "AnimeKing" Facebook channel system, interacting with an 80,000 follower audience base.
             </p>
         </div>
 
         <div class="cv-section">
-            <div class="cv-title">04 // Manga Public Relations & Editing</div>
+            <div class="cv-title">Manga Public Relations & Editing</div>
             <p class="cv-desc">
                 Managed outward-facing Public Relations (PR) frameworks for an active manga scanning group over 2 months. Served as formal Translation Lead (TL) during critical release timelines to coordinate translation validation.
             </p>
         </div>
 
         <div class="cv-section">
-            <div class="cv-title">05 // Literary Publication // Shou #1608</div>
+            <div class="cv-title">Literary Publication // Shou #1608</div>
             <p class="cv-desc">
                 Active author of the deep-lore system narrative *Shou #1608*, managing continuity boards, timeline indexes, and ongoing digital manuscript production paths.
             </p>
         </div>
 
-        <div class="tech-divider"></div>
+        <hr>
         
         <p class="footer-text">
-            Upak Portal Cluster v2.0 © 2006 ▪ Powered by me.1o1c.org<br>
-            Designed for Internet Explorer 7.0 & Mozilla Firefox ▪ 1024x768 Resolution
+            &copy; 2016 Upak Portal Cluster &middot; Built with semantic HTML5 &amp; CSS3
         </p>
         
     </div>
